@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Movie.css";
 
+// props 만 받아오면 되고 state 는 필요 없으므로 functional Component 로 작성
+
 const Movie = ({ id, year, title, summary, poster, genres }) => {
   return (
     <div className="movie">
